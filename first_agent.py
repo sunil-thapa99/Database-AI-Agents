@@ -3,7 +3,7 @@ from langchain_community.chat_models import ChatOllama
 
 # Define the chat model
 chat_model = ChatOllama(
-    model='llama3.2:3b',
+    model='llama3.2:latest',
     temperature=0.7,
 )
 
